@@ -4,7 +4,7 @@ Scheme Nomic Metarules
 The goal
 ---------
 
-The goal of Scheme Nomic is to have the bot say "<your nickname> is the winner" or something to that effect.
+The goal of Scheme Nomic is to have the bot say `<your nickname> is the winner`, or something to that effect.
 How this goal is acheived is collectively up to you and the other players.
 
 Be nice

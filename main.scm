@@ -1,7 +1,7 @@
 (require-extension irc posix regex) ; http-client html-parser)
 
-;; The configuration file should contain a list of 4 strings:
-;; (CHANNEL SERVER BOT-NICK OWNER-NICK)
+;; The configuration file should contain a definiton of the format:
+;; (define *config* '(CHANNEL SERVER BOT-NICK OWNER-NICK))
 (load "config.scm")
 
 (define +channel+ (list-ref *config* 0))
